@@ -16,6 +16,8 @@
       <v-btn text><v-icon small left>fa-home</v-icon>Cart</v-btn>
       <v-btn text>Settings</v-btn>
       <v-btn text>Workflow</v-btn>
+      <v-btn text>Settings</v-btn>
+      <v-btn text>Workflow</v-btn>
     </v-app-bar>
   </v-card>
 </template>

@@ -10,8 +10,17 @@
       <h5 class="subtitle-1">Subtitle</h5>
       <p class="body-1">Body</p>
     </v-card-text>
+    <v-card-actions>
+      <v-btn @click="increment">CLick me</v-btn>
+    </v-card-actions>
   </v-card>
 </template>
 <script>
-export default {};
+export default {
+  methods: {
+    increment() {
+      this.$store.dispatch("increment");
+    },
+  },
+};
 </script>
